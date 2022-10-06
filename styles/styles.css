@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/**   HEADER Y NAV    **/
+header {
+    height: 102px;
+    width: 100%;
+    background-color: #F5CCAB;
+    display: inline;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.headerDiv {
+    height: 102px;
+}
+
+.headerLogo {
+    width: 150px;
+    height: 102px;
+    display:inline-flex;
+    justify-content: start;
+
+}
+
+.headerDiv nav {
+    display:inline;
+    margin-bottom: 48px;
+    font-family: 'Roboto Mono', monospace;
+    display: inline-flex;
+    flex-basis:auto;
+    justify-content: flex-end;
+
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+/**    HEADER Y NAV FIN    **/
+
+
+/**    SECCIONES    **/
+.seccionUno {
+    background: rgb(255, 173, 173) url("../media/frutosSecos.png") floralwhite  left;
+    width: 100%;
+    height: 780px;
+}
+
+.seccionUno .textos {
+    display: inline-block;
+}
+
+.seccionUno button {
+    width: 100px;
+    height: 40px;
+}
+
+.seccionUno img {
+    width: 50vw; 
+    height: 50vh;
+    
+}
+
+
+
+.seccionDos {
+    background-color: rgb(255, 236, 173);
+    width: 100%;
+    height: 780px;
+}
+
+.seccionTres {
+    background-color: rgb(173, 255, 237);
+    width: 100%;
+    height: 780px;
+}
+
+/**    SECCIONES FIN    **/
+
+/**    FOOTER    **/
+footer {
+    background-color: rgb(199, 158, 105);
+}
+
+footer img {
+    width: 150px;
+    height: 102px;
+    margin-left: 100px;
+}
+
+footer p {
+    margin-left: 88px;
+    display: inline-block;
+}
+
+footer div {
+    display:inline-block;
+}
+
+.anchorRedes img{
+    width: 50px; 
+    height: 50px;
+    display:inline-block;
+}
+
+.anchorRedes a{
+    width: 50px; 
+    height: 50px;
+    display:inline-block;
+}
+/**    FOOTER FIN   **/
