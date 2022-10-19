@@ -9,22 +9,17 @@
 }
 
 /**   HEADER Y NAV    **/
-header {
+.header {
     height: 102px;
     width: 100%;
     background-color: #F5CCAB;
-    display: inline;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: baseline;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.headerDiv {
-    height: 102px;
-}
-
-.headerLogo {
+.header .logo {
     width: 150px;
     height: 102px;
     display:inline-flex;
@@ -32,13 +27,13 @@ header {
 
 }
 
-.headerDiv nav {
+.divNav nav {
     display:inline;
-    margin-bottom: 48px;
+    /**margin-bottom: 48px; **/
     font-family: 'Roboto Mono', monospace;
     display: inline-flex;
     flex-basis:auto;
-    justify-content: flex-end;
+    justify-content: center;
 
 
 }
