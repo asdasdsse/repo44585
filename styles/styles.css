@@ -16,52 +16,62 @@ body {
 
 /**   HEADER Y NAV    **/
 .header {
+    width: 100vw;
     background-color: #F5CCAB;
     display: flex;
-    justify-content: space-between;
+    justify-content: center space-between;
     align-items: center;
     flex-wrap: nowrap;
-    height: 85px;
-    padding: 5px 10%;
+    height: 5.31rem;
+    padding: 0.31rem 10%;
 }
 
-.header .logo img {
-    height: 85px;
+.logo img {
+    height: 5.31rem;
     width: auto;
-    max-width: 320px;
+    max-width: 20rem;
+    align-self: flex-start;
 }
 
-.header .headerLogo {
+.logo {
     cursor: pointer;
 }
 
-.nav .nav-links {
+.nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.nav-links {
     font-size: 700;
     color:white;
     text-decoration: none;
     list-style: none;
     transition: color 0.5s, font-size 0,5;
+    display: flex;
+    align-items: center;
+    justify-items: center;
 
 }
 
-.nav .nav-links a:hover {
+.nav-links a:hover {
     color: darkcyan; 
     font-size: 1200;
 }
 
-.header .nav-links li {
+.nav-links li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 1.25rem;
 }
 
-.header .nav-links a {
+.nav-links a {
     font-size: 700;
     color: rgb(255, 255, 255);
     text-decoration: none;
     
 
 }
-
 
 /**    HEADER Y NAV FIN    **/
 
@@ -70,7 +80,7 @@ body {
 .seccionUno {
     background: rgb(255, 173, 173) url("../media/frutosSecos.png") floralwhite  left;
     width: 100%;
-    height: 780px;
+    height: 48.75rem;
 }
 
 .seccionUno .textos {
@@ -78,8 +88,8 @@ body {
 }
 
 .seccionUno button {
-    width: 100px;
-    height: 40px;
+    width: 6.25rem;
+    height: 2.5rem;
 }
 
 .seccionUno img {
@@ -92,30 +102,63 @@ body {
 .seccionDos {
     background-color: rgb(255, 236, 173);
     width: 100%;
-    height: 780px;
+    height: 48.75rem;
 }
 
 .seccionTres {
     background-color: rgb(173, 255, 237);
     width: 100%;
-    height: 780px;
+    height: 48.75rem;
 }
 
 /**    SECCIONES FIN    **/
 
+/** PAGINA NOSOTROS **/
+
+.nosotrosSeccionUno {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 90% 10% ;
+}
+
+.nosotrosPrimerTexto{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.nosotrosImg {
+    width: 40.31rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotrosImgTexto {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 3;
+}
+
+
+/** PAGINA NOSOTROS FIN **/
+
 /**    FOOTER    **/
 footer {
     background-color: rgb(199, 158, 105);
+    margin-top: 200px;
 }
 
 footer img {
-    width: 150px;
-    height: 102px;
-    margin-left: 100px;
+    width: 9.38rem;
+    height: 6.38rem;
+    margin-left: 6.25rem;
 }
 
 footer p {
-    margin-left: 88px;
+    margin-left: 5.50rem;
     display: inline-block;
 }
 
@@ -124,14 +167,14 @@ footer div {
 }
 
 .anchorRedes img{
-    width: 50px; 
-    height: 50px;
+    width: 3.13rem; 
+    height: 3.13rem;
     display:inline-block;
 }
 
 .anchorRedes a{
-    width: 50px; 
-    height: 50px;
+    width: 3.13rem; 
+    height: 3.13rem;
     display:inline-block;
 }
 /**    FOOTER FIN   **/
