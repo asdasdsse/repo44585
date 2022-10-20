@@ -10,37 +10,50 @@
 
 /**   HEADER Y NAV    **/
 .header {
-    height: 102px;
-    width: 100%;
     background-color: #F5CCAB;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: nowrap;
+    height: 85px;
+    padding: 5px 10%;
 }
 
-.header .logo {
-    width: 150px;
-    height: 102px;
-    display:inline-flex;
-    justify-content: start;
-
+.header .logo img {
+    height: 85px;
+    width: auto;
 }
 
-.divNav nav {
-    display:inline;
-    /**margin-bottom: 48px; **/
-    font-family: 'Roboto Mono', monospace;
-    display: inline-flex;
-    flex-basis:auto;
-    justify-content: center;
-
-
+.header .headerLogo {
+    cursor: pointer;
 }
 
-nav ul {
+.nav .nav-links {
+    font-size: 700;
+    color:white;
+    text-decoration: none;
     list-style: none;
+    transition: color 0.5s;
+
 }
+
+.nav .nav-links a:hover{
+    color: darkcyan;
+    transform: scale(1.2);
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
 
 /**    HEADER Y NAV FIN    **/
 
