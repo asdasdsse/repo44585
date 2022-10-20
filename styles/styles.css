@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 /**   HEADER Y NAV    **/
 .header {
     background-color: #F5CCAB;
@@ -22,6 +28,7 @@
 .header .logo img {
     height: 85px;
     width: auto;
+    max-width: 320px;
 }
 
 .header .headerLogo {
@@ -33,13 +40,13 @@
     color:white;
     text-decoration: none;
     list-style: none;
-    transition: color 0.5s;
+    transition: color 0.5s, font-size 0,5;
 
 }
 
-.nav .nav-links a:hover{
-    color: darkcyan;
-    transform: scale(1.2);
+.nav .nav-links a:hover {
+    color: darkcyan; 
+    font-size: 1200;
 }
 
 .header .nav-links li {
@@ -51,6 +58,7 @@
     font-size: 700;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    
 
 }
 
@@ -79,7 +87,6 @@
     height: 50vh;
     
 }
-
 
 
 .seccionDos {
