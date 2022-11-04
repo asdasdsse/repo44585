@@ -1,0 +1,66 @@
+.nosotros {
+    &SeccionUno{
+        margin: 0.25rem;
+        width: 100vw;
+    }
+    &SeccionDiv {
+        display: flex;
+        height: fit-content;
+        width: fit-content;
+    }
+    &SeccionDiv {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6.911666666666667% 50.81166666666667% 6.911666666666667% 4.471666666666667% 23.98166666666667%;
+    }
+
+    &H1{ 
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    }
+
+    &Img{
+    object-fit: cover;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+
+    &Img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    &Texto1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    }
+
+    &ImgTexto {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-column-end: 3;
+    grid-row-end: 4;
+    }
+
+    &H2 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-column-end: 2;
+    grid-row-end: 4;
+    }
+    &Texto2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    }
+}

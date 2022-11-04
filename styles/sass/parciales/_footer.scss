@@ -1,0 +1,30 @@
+footer {
+    background-color: rgb(199, 158, 105);
+    margin-top: auto;
+    width: 100%;
+    display:inline-block;
+
+    & img {
+        width: 9.38rem;
+        height: 6.38rem;
+        margin-left: 6.25rem;
+    } 
+    & p {
+        display: inline-block;
+    } 
+    & div {
+        display:inline-block;
+    } 
+}
+
+.anchorRedes img{
+    width: 3.13rem; 
+    height: 3.13rem;
+    filter:sepia(25%);
+    display: inline-block
+}
+.anchorRedes a{
+    width: 3.13rem; 
+    height: 3.13rem;
+    display: inline-block;
+}

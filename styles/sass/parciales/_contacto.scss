@@ -1,0 +1,49 @@
+.contacto{
+    &-wrp { 
+    height: auto;
+    padding: 12px;
+    margin: 10px 250px 10px 250px;
+    }
+    
+    &-div { 
+        display: grid;
+        grid-template-columns: 2;
+        grid-template-rows: 1fr;
+        &-info {    
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1 ;
+        grid-row-end: 2 ;
+        display: inline;
+        width: 12.2rem;
+        }
+        &-form {    
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+    }
+    &-icon {    
+        width: 1rem;
+        height: 1rem;
+        }
+        &-info {   
+        display: inline-block;
+    }
+    &-info {
+        height: 9.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &Hr hr {
+        display: none;
+        }
+    &-form input {
+        width: 50%;
+        height: auto;
+        display: flex;
+        text-align: start;
+        margin: 0 2px 0 2px;
+    }
+}

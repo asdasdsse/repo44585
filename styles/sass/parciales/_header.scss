@@ -1,0 +1,18 @@
+.header {
+    background-color: #F5CCAB;
+    display: flex;
+    justify-content: center space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0.31rem 10%;
+
+    &-logo img {
+        height: 5.31rem;
+        width: auto;
+        align-self: flex-start;
+    }
+    &-logo {
+        cursor: pointer;
+    }
+}

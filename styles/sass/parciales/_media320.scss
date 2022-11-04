@@ -1,0 +1,168 @@
+/**    MEDIA QUERIES 320  **/
+
+@media screen and (max-width: 320px){
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-nosotros {
+        height: 130rem;
+    }
+
+    .nosotrosSeccionDiv {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-auto-flow: dense; 
+        justify-content: top;
+        align-items: top;
+    
+    }
+    .nosotrosSeccionUno { 
+        margin: 0px 0px 0px 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-content: top;
+        align-items: top;
+        object-fit: fill;
+        gap: 0;
+    }
+    .nosotrosH1{ 
+        display: flex;
+        
+        margin: 0;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .nosotrosImg{
+   
+       
+        size: cover;
+        margin: 0;
+    }
+    
+    .nosotrosImg {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 18.3rem;
+    
+    }
+    
+    .nosotrosTexto1 {
+   
+        margin: 0;
+        height: 20rem;
+        
+    }
+    
+    .nosotrosImgTexto {
+        margin: 0;
+    }
+    
+    .nosotrosH2 {
+        margin: 0;
+        height: 2rem;
+    }
+    
+    .nosotrosTexto2 {
+    
+        margin: 0;
+       
+    }
+    /*      PAGINA    CONTACTO       */
+
+    .main-contacto {
+        height: 38rem;
+    }
+    
+    .contacto-wrp {
+        height: auto;
+        margin: 5px 0 5px 0;
+    }
+    
+    .contacto-div {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .contactoHr {
+        display: block
+    }
+
+    .contacto-div-info {
+        display: block;
+    }
+
+    .contacto-form input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 4rem;
+    }
+
+
+    /*      PAGINA    CONTACTO   FIN      */
+
+
+    /* FOOTER */
+
+    footer {
+        justify-content: center;
+    }
+
+    .footer-p{
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerLogo {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerSection {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-p {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-p p {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .anchorRedes{
+        margin: 0px 0px 0px 0px;
+    }
+}
+/**   FIN MEDIA QUERIES 320  **/

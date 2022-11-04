@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="keyword" content="">
+    <meta name="description" content="">
+    <meta>
     <title>Diev Contacto</title>
-    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/css/styles.css">
 </head>
 <body>
     <header class="header">
-        <div class="logo">
-            <img src="../media/logo.png" alt="logo" class="logo">
+        <div class="header-logo">
+            <img src="../media/logo.png" alt="logo" class="header-logo">
         </div>
             <nav class="nav">
                 <ul class="navLinks">
@@ -21,30 +25,35 @@
                     <li class="navItems"><a class="navAnchor" href="./proyecto.html">Proyecto</a></li>
                     <li class="navItems"><a class="navAnchor" href="./nosotros.html">Nosotros</a></li>
                     <li class="navItems"><a class="navAnchor" href="./productos.html">Como llegar</a></li>
-                    <li class="navItems"><b><a class="navAnchor" href="./contacto.html">Contacto</a></b></li>
+                    <li class="navItems selected"><b><a class="navAnchor" href="./contacto.html">Contacto</a></b></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
+    <main class="main-contacto">
         <section>
-            <div>
-                <h>Contacto</h>
+            <div class="container card contacto-wrp">
+                <h1>Contacto</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores deleniti voluptatibus magnam eaque repudiandae voluptates libero repellat quibusdam molestias exercitationem.</p>
-                <div>
-                    <img><p>112233445</p>
-                    <img><p>consultas@diev.com</p>
-                    <img><p>Calle 1, Buenos Aires</p>
+                <div class="contacto-div">
+                    <div class="contacto-div-info">
+                        <div class="contacto-info">
+                            <img class="contacto-icon" src="../media/telephone.png"><p class="contacto-icon-info">112233445</p>
+                            <img class="contacto-icon" src="../media/email.png"><p class="contacto-icon-info">consultas@diev.com</p>
+                            <img class="contacto-icon" src="../media/pin.png"><p class="contacto-icon-info">Calle 1, Buenos Aires</p>
+                        </div>
+                    </div>
+                    <hr class="contactoHr">
+                    <div class="contacto-div-form">
+                        <form class="contacto-form">
+                            <p>Nombre <input type="text" name="nombre"/></p>
+                            <p>Correo<input type="mail" name="correo"/></p>
+                            <p>Telefono <input type="tel" name="telefono"/></p>
+                            <p>Mensaje <input type="text" name="mensaje"/></p>
+                            <button type="submit">ENVIAR</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <form>
-                    <p>Nombre <input type="text" name="nombre"/></p>
-                    <p>Correo<input type="mail" name="correo"/></p>
-                    <p>Telefono <input type="tel" name="telefono"/></p>
-                    <p>Mensaje <input type="text" name="mensaje"/></p>
-                    <button type="submit">ENVIAR</button>
-                </form>
             </div>
         </section>
 
@@ -55,17 +64,18 @@
             <div>
                 <a href="../index.html"><img src="../media/logo.png" alt="logo" class="footerLogo"></a>
             </div>
-            <div>
+            <div class="footer-p">
                 <p> ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, fugit!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dolores!</p>
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="anchorRedes">
-                <a href="https://www.instagram.com/Diev"><img src="../media/instagramIcon.png"></a>
-                <a href="https://www.facebook.com/Diev"><img src="../media/facebookIcon.png"></a>
-                <a href="https://api.whatsapp.com/" type=""><img src="../media/wppIcon.png"></a>
+                <div class="footerAnchor"><a href="https://www.instagram.com/Diev"><img src="../media/instagramIcon.png"></a></div>
+                <div class="footerAnchor"><a href="https://www.facebook.com/Diev"><img src="../media/facebookIcon.png"></a></div>
+                <div class="footerAnchor"><a href="https://api.whatsapp.com/" type=""><img src="../media/wppIcon.png"></a></div>
             </div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>

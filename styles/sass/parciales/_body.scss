@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    background: url("../../media/hipsterbackground.png") fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}

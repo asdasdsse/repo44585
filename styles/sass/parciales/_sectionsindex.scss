@@ -1,0 +1,40 @@
+.seccionUno {
+    background:url("../../media/carton.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 48.75rem;
+
+    & .textos {
+        display: inline-block;
+    }
+    
+    &Btn {
+        width: 6.25rem;
+        height: 2.5rem;
+        display: flex;
+        text-align: center;
+        text-justify: center;
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+    &Uno img {
+        width: 50vw; 
+        height: 50vh;
+    }
+}
+
+.seccionDos {
+    background-color: rgb(255, 236, 173);
+    width: 100%;
+    height: 48.75rem;
+
+    &Img {
+    margin-bottom: 0.5rem;
+    }
+}
+
+.seccionTres {
+    background-color: rgb(173, 255, 237);
+    width: 100%;
+    height: 48.75rem;
+}
