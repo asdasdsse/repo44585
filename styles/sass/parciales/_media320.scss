@@ -8,116 +8,124 @@
         width: 100vw;
         flex-direction: column;
         flex-wrap: nowrap;
-        
+        text-align: center;
+        align-items: center;
     }
     
     .navLinks {
         display: flex;
         flex-direction: column;
+        padding: 0.5rem;
+        margin: 0;
     }
 
     .main-nosotros {
-        height: 130rem;
+        height: auto;
     }
 
-    .nosotrosSeccionDiv {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-auto-flow: dense; 
-        justify-content: top;
-        align-items: top;
-    
-    }
-    .nosotrosSeccionUno { 
-        margin: 0px 0px 0px 0px;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-content: top;
-        align-items: top;
-        object-fit: fill;
-        gap: 0;
-    }
-    .nosotrosH1{ 
-        display: flex;
+    .nosotros { 
         
-        margin: 0;
-        align-content: center;
-        justify-content: center;
-    }
+        &SeccionUno { 
+            margin: 0px 0px 0px 0px;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            
+        }
+
+        &SeccionDiv {
+            padding: 0;
+        }
+
+        &-wrp-grid {
+            display: block;
+            margin: 1rem 0.2rem 1rem 0.2rem;
+            padding: 0rem;
     
-    .nosotrosImg{
-   
-       
-        size: cover;
-        margin: 0;
-    }
-    
-    .nosotrosImg {
-        width: 100%;
-        height: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        height: 18.3rem;
-    
-    }
-    
-    .nosotrosTexto1 {
-   
-        margin: 0;
-        height: 20rem;
+        }
+
+        &H1{ 
+            display: flex;
+            
+            margin: 0;
+            align-content: center;
+            justify-content: center;
+        }
         
+        &Img{
+
+        
+            size: cover;
+            margin: 0;
+        }
+        
+        &Img {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            height: 18.3rem;
+        
+        }
+        
+        &Texto1 {
+
+            margin: 0;
+            height: 20rem;
+            
+        }
+        
+        &ImgTexto {
+            margin: 0;
+        }
+        
+        &H2 {
+            margin: 0;
+            height: 2rem;
+        }
+        
+        &Texto2 {
+            margin: 0;
+        
+        }
     }
-    
-    .nosotrosImgTexto {
-        margin: 0;
-    }
-    
-    .nosotrosH2 {
-        margin: 0;
-        height: 2rem;
-    }
-    
-    .nosotrosTexto2 {
-    
-        margin: 0;
-       
-    }
+
     /*      PAGINA    CONTACTO       */
 
     .main-contacto {
-        height: 38rem;
-    }
-    
-    .contacto-wrp {
         height: auto;
-        margin: 5px 0 5px 0;
     }
-    
-    .contacto-div {
-        display: flex;
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
+    .contacto {
+        &-wrp {
+            height: auto;
+            margin: 5px 0 5px 0;
+        }
+        
+        &-div {
+            display: flex;
+            flex-direction: column;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+        }
 
-    .contactoHr {
-        display: block
-    }
+        &Hr {
+            display: block
+        }
 
-    .contacto-div-info {
-        display: block;
-    }
+        &-div-info {
+            display: block;
+        }
 
-    .contacto-form input {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 4rem;
+        &-form input {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 4rem;
+        }
+        
     }
-
 
     /*      PAGINA    CONTACTO   FIN      */
 
@@ -136,42 +144,49 @@
     footer {
         justify-content: center;
     }
-
-    .footer-p{
-        margin: 0px 0px 0px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     
-    .footerLogo {
-        margin: 0px 0px 0px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    .footer {
+        &-div {
+            flex-direction: column;
+        }
+        &-p{
+            margin: 0px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        &Logo {
+            margin: 0px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .footerSection {
-        margin: 0px 0px 0px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+        &Section {
+            margin: 0px 0px 0px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        &-p {
+            margin: 0px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-p p {
+            margin: 0px 0px 0px 0px;
+        }
     
-    .footer-p {
-        margin: 0px 0px 0px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-p p {
-        margin: 0px 0px 0px 0px;
-    }
-
+        }
     .anchorRedes{
         margin: 0px 0px 0px 0px;
     }
 }
+
+
 /**   FIN MEDIA QUERIES 320  **/

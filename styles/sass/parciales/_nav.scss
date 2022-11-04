@@ -11,7 +11,7 @@
         list-style: none;
         transition: color 0.5s, font-size 0,5;
         display: flex;
-        align-items: center;
+        align-items: center space-between;
         justify-items: center;
     }
     &Links  a:hover {
@@ -20,7 +20,7 @@
     }
     &Links li {
         display: inline-block;
-        padding: 0 1.25rem;
+        
     }
     &Links a {
         font-size: 700;
@@ -29,6 +29,7 @@
     }
     &Items {
         display: inline-block;
+        padding: 1rem;
     }
     &Items .selected {
         font-size: 1000;

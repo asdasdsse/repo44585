@@ -2,8 +2,8 @@
 .header {
     background: $header-color;
     display: flex;
-    justify-content: center space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0.31rem 10%;
