@@ -1,6 +1,6 @@
 .nosotros {
     &SeccionUno{
-        margin: 0.25rem;
+        margin-top: 3rem;
         width: 100vw;
     }
     &SeccionDiv {
@@ -63,4 +63,8 @@
     grid-row-start: 5;
     grid-row-end: 6;
     }
+    &-content {
+    width: 100%;
+    }
+    
 }

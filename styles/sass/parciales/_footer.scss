@@ -1,8 +1,10 @@
+@import "./variables";
 footer {
-    background-color: rgb(199, 158, 105);
+    background-color: $footer-color;
     margin-top: auto;
     width: 100%;
     display:inline-block;
+    box-shadow:0px 0px 3px 0px #000000;
 
     & img {
         width: 9.38rem;

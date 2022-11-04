@@ -1,3 +1,4 @@
+@import "./variables";
 .nav {
     display: flex;
     align-items: center;
@@ -5,7 +6,7 @@
 
     &-Links  {
         font-size: 700;
-        color:white;
+        color:$nav-color;
         text-decoration: none;
         list-style: none;
         transition: color 0.5s, font-size 0,5;
@@ -23,7 +24,7 @@
     }
     &Links a {
         font-size: 700;
-        color: rgb(255, 255, 255);
+        color: $nav-color;
         text-decoration: none;
     }
     &Items {
@@ -31,6 +32,6 @@
     }
     &Items .selected {
         font-size: 1000;
-        padding-bottom: 0.2rem white;
+        padding-bottom: 2rem $nav-color;
     }
 }
