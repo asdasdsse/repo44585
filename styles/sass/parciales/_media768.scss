@@ -1,7 +1,17 @@
 /**    MEDIA QUERIES 768  **/
-@media screen and (min-width:321px) and (max-width:769px){
+@media screen and (max-width:768px){
     .nosotrosSeccionUno {
         height: 58rem;
+    }
+    .nosotros-wrp-grid {
+        height: 54rem;
+    }
+    .contacto-wrp {
+        margin: 1rem 1.6rem 1rem 1.6rem;
+    }
+    .carousel-img {
+        width: 80%;
+        height: 80%;
     }
 }
 

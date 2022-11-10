@@ -73,6 +73,60 @@ body {
   padding-bottom: 2rem white;
 }
 
+footer {
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(199, 158, 105);
+  margin-top: auto;
+  width: 100%;
+  box-shadow: 0px 0px 3px 0px #000000;
+}
+.footer-div {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo {
+  width: 9.38rem;
+  height: 6.38rem;
+  display: inline-block;
+}
+.footer-p p {
+  margin: 0.375;
+}
+.footer p {
+  display: inline-block;
+}
+.footer-wrp-anchor {
+  flex-direction: row;
+}
+.footer-anchor {
+  display: inline;
+}
+.footer-anchor img {
+  width: 3.13rem;
+  height: 3.13rem;
+  filter: sepia(25%);
+}
+.footer-anchor a {
+  width: 3.13rem;
+  height: 3.13rem;
+}
+
+.main-index {
+  overflow-x: hidden;
+}
+
+.index-section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .seccionUno {
   background: url("../../media/carton.png") no-repeat;
   background-size: cover;
@@ -233,49 +287,22 @@ body {
   height: 25%;
 }
 
-footer {
-  margin-top: auto;
-  width: 100%;
-  display: inline-block;
+.productos-wrp {
+  margin: 1rem;
+  padding: 0.25rem;
+  box-shadow: 0px 0px 1px 0px #000000;
+}
+.productos-wrp-anchor {
+  text-decoration: none;
+  color: #00a093;
 }
 
-.footer {
-  background-color: rgb(199, 158, 105);
-  margin-top: auto;
+.proyecto-wrp {
+  margin: 2rem;
+}
+.proyecto-wrp-map {
   width: 100%;
-  display: flex;
-  box-shadow: 0px 0px 3px 0px #000000;
-  flex-wrap: wrap;
-}
-.footer-logo {
-  width: 9.38rem;
-  height: 6.38rem;
-  display: inline-block;
-}
-.footer p {
-  display: inline-block;
-}
-.footer-div {
-  width: 100%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 50px;
-  padding: 45px 0px;
-  grid-template-rows: auto;
-}
-
-.anchorRedes img {
-  width: 3.13rem;
-  height: 3.13rem;
-  filter: sepia(25%);
-  display: inline-block;
-}
-
-.anchorRedes a {
-  width: 3.13rem;
-  height: 3.13rem;
-  display: inline-block;
+  height: 500px;
 }
 
 /**    MEDIA QUERIES 320  **/
@@ -294,6 +321,12 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
+    margin: 0;
+  }
+  .navItems {
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
     margin: 0;
   }
   .main-nosotros {
@@ -420,9 +453,19 @@ footer {
 }
 /**   FIN MEDIA QUERIES 320  **/
 /**    MEDIA QUERIES 768  **/
-@media screen and (min-width: 321px) and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .nosotrosSeccionUno {
     height: 58rem;
+  }
+  .nosotros-wrp-grid {
+    height: 54rem;
+  }
+  .contacto-wrp {
+    margin: 1rem 1.6rem 1rem 1.6rem;
+  }
+  .carousel-img {
+    width: 80%;
+    height: 80%;
   }
 }
 /**    FIN MEDIA QUERIES 768  **/

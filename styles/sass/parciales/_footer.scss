@@ -2,16 +2,20 @@
 footer{
     margin-top: auto;
     width: 100%;
-    display:inline-block;
 }
 .footer{
     background-color: $footer-color;
     margin-top: auto;
     width: 100%;
-    display:flex;
     box-shadow:0px 0px 3px 0px #000000;
-    flex-wrap: wrap;
     
+    &-div {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     &-logo{
         width: 9.38rem;
@@ -19,30 +23,31 @@ footer{
         display: inline-block;
     } 
 
+    &-p p {
+        margin: 0.375;
+    }
+
     & p{
         display: inline-block;
     } 
 
-    &-div{
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: auto;
-        grid-gap: 50px;
-        padding: 45px 0px;
-        grid-template-rows: auto;
-    } 
-}
+    &-wrp-anchor {
+        flex-direction: row;
+    }
 
-
-.anchorRedes img{
-    width: 3.13rem; 
-    height: 3.13rem;
-    filter:sepia(25%);
-    display: inline-block
-}
-.anchorRedes a{
-    width: 3.13rem; 
-    height: 3.13rem;
-    display: inline-block;
+    &-anchor {
+        display: inline;
+    }
+    
+    &-anchor img {
+        width: 3.13rem;
+        height: 3.13rem;
+        filter: sepia(25%);
+    
+    }
+    
+    &-anchor a {
+        width: 3.13rem;
+        height: 3.13rem;
+    }
 }
