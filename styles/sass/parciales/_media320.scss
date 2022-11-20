@@ -5,11 +5,18 @@
         overflow-x: hidden;
     }
     .header {
+        height: auto;
+        padding-top: 0.5rem;
         width: 100vw;
         flex-direction: column;
         flex-wrap: nowrap;
         text-align: center;
         align-items: center;
+        &-logo img{
+            padding-top: 0.7rem;
+            width: 2.76rem;
+            height: auto;
+        }
     }
     
     .navLinks {
@@ -26,6 +33,15 @@
         margin: 0;
     }
 
+    .seccionUno {
+        margin-top: 1rem;
+    }
+
+    .indexSection {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
     .seccionDosImg {
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
@@ -35,7 +51,7 @@
 
 
     .main-nosotros {
-        height: 83rem;
+        height: 54rem;
     }
 
     .nosotros { 
@@ -53,8 +69,11 @@
 
         &-wrp-grid {
             display: block;
-            margin: 1rem 0.2rem 1rem 0.2rem;
-            padding: 0rem;
+            margin: 1em 0.2rem 1rem 0.2rem;
+            padding: 0;
+            & p {
+                padding: 0.25rem;
+            }
     
         }
 
@@ -85,10 +104,8 @@
         }
         
         &Texto1 {
-
             margin: 0;
-            height: 20rem;
-            
+            height: 12rem;
         }
         
         &ImgTexto {
@@ -132,6 +149,7 @@
 
         &-div-info {
             display: block;
+            height: 10rem;
         }
 
         &-form input {
@@ -167,9 +185,14 @@
     }
     
     /*      PAGINA    PRODUCTOS   FIN      */
-    .proyecto-wrp {
-        width: 304px;
-        margin: 0.20rem;
+    .comollegar-wrp {
+        margin: 0.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        height: auto;
+        &-map {
+            height: 33.3rem;
+        }
         
         &-map iframe {
             width: 304px;
@@ -186,31 +209,34 @@
     }
     
     .footer {
+        &-wrp {
+            padding: 1rem;
+        }
         &-div {
             flex-direction: column;
+            width: auto;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            & figure {
+                margin: 0;
+            }
         }
         &-p{
-            margin: 0px 0px 0px 0px;
+            height: 202px;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
-        
-        &Logo {
-            margin: 0px 0px 0px 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        &Section {
-            margin: 0px 0px 0px 0px;
-            display: flex;
             flex-direction: column;
+            margin-bottom: 2rem;
+        }
+        
+        &-logo {
+            width: 2.76rem;
+            height: auto;
+            display: flex;
             justify-content: center;
             align-items: center;
         }
-        
         &-p {
             margin: 0px 0px 0px 0px;
             display: flex;
@@ -219,14 +245,9 @@
         }
 
         &-p p {
-            margin: 0px 0px 0px 0px;
+            margin: 0.2rem;
         }
-    
-        }
-    .anchorRedes{
-        margin: 0px 0px 0px 0px;
     }
 }
-
 
 /**   FIN MEDIA QUERIES 320  **/

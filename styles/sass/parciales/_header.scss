@@ -3,14 +3,16 @@
     background: $header-color;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0.31rem 10%;
     box-shadow:0px 0px 3px 0px #000000;
+    width: 100vw;
+    height: 5rem;
 
     &-logo img {
-        height: 5.31rem;
+        height: 3.31rem;
         width: auto;
         align-self: flex-start;
     }

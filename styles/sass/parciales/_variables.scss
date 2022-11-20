@@ -1,7 +1,13 @@
-$header-color:#F5CCAB;
+$header-color:#c98952;
 $nav-color:white;
 $nav-hover:darkcyan;
-$footer-color:rgb(199, 158, 105);
-$seccionUno-bg: url("../../media/carton.png") ;
-$seccionDos-bg:rgb(255, 236, 173);
-$seccionTres-bg:rgb(252, 252, 252);
+$footer-color:#6e4723;
+$seccionUno-bg: #eddece url("../../media/carton.png") ;
+$seccionDos-bg:#eddece;
+$seccionTres-bg:#eddece;
+
+$textcontrast--header-color:#ffffff;
+$textcontrast--footer-color:#ffffff;
+$textcontrast--seccionUno-bg:#122131;
+$textcontrast--seccionDos-bg:#122131;
+$textcontrast--seccionTres-bg:#122131;

@@ -22,7 +22,7 @@
             <nav class="nav">
                 <ul class="navLinks">
                     <li class="navItems"><a class="navAnchor" href="../index.html">Inicio</a></li>
-                    <li class="navItems"><a class="navAnchor" href="./proyecto.html">Como llegar</a></li>
+                    <li class="navItems"><a class="navAnchor" href="./comollegar.html">Como llegar</a></li>
                     <li class="navItems"><a class="navAnchor" href="./nosotros.html">Nosotros</a></li>
                     <li class="navItems"><a class="navAnchor" href="./productos.html">Productos</a></li>
                     <li class="navItems selected"><b><a class="navAnchor" href="./contacto.html">Contacto</a></b></li>
@@ -32,28 +32,30 @@
     </header>
     <main class="main-contacto">
         <section>
-            <div class="container card contacto-wrp">
-                <h1>Contacto</h1>
-                <p>Contactanos por los siguientes medios, o completa el formulario y dejanos tu mensaje:</p>
-                <div class="contacto-div">
-                    <div class="contacto-div-info">
-                        <div class="contacto-info">
-                            <img class="contacto-icon" src="../media/telephone.png"><p class="contacto-icon-info">112233445</p>
-                            <img class="contacto-icon" src="../media/email.png"><p class="contacto-icon-info">consultas@diev.com</p>
-                            <img class="contacto-icon" src="../media/pin.png"><p class="contacto-icon-info">Calle 1, Buenos Aires</p>
+            <div class="contacto">
+                <div class="container card contacto-wrp">
+                    <h1>Contacto</h1>
+                    <p>Contactanos por los siguientes medios, o completa el formulario y dejanos tu mensaje:</p>
+                    <div class="contacto-div">
+                        <div class="contacto-div-info">
+                            <div class="contacto-info">
+                                <a href="https://api.whatsapp.com/"><img class="contacto-icon" src="../media/telephone.png"><p class="contacto-icon-info">112233445</p></a>
+                                <a href="mailto:consultas@diev.com"><img class="contacto-icon" src="../media/email.png"><p class="contacto-icon-info">consultas@diev.com</p></a>
+                            <a href="./comollegar.html"><img class="contacto-icon" src="../media/pin.png"><p class="contacto-icon-info">Calle 1, Buenos Aires</p></a> 
+                            </div>
                         </div>
+                        <hr class="contactoHr">
+                        <div class="contacto-div-form">
+                            <form class="contacto-form">
+                                <p>Nombre <input type="text" name="nombre"/></p>
+                                <p>Correo<input type="mail" name="correo"/></p>
+                                <p>Telefono <input type="tel" name="telefono"/></p>
+                                <p>Mensaje <input type="text" name="mensaje"/></p>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                        <hr class="contactoHr">
                     </div>
-                    <hr class="contactoHr">
-                    <div class="contacto-div-form">
-                        <form class="contacto-form">
-                            <p>Nombre <input type="text" name="nombre"/></p>
-                            <p>Correo<input type="mail" name="correo"/></p>
-                            <p>Telefono <input type="tel" name="telefono"/></p>
-                            <p>Mensaje <input type="text" name="mensaje"/></p>
-                            <button type="submit">ENVIAR</button>
-                        </form>
-                    </div>
-                    <hr class="contactoHr">
                 </div>
             </div>
         </section>

@@ -13,6 +13,7 @@
         display: flex;
         align-items: center space-between;
         justify-items: center;
+        margin: 0;
     }
     &Links  a:hover {
         color: darkcyan; 
@@ -35,4 +36,8 @@
         font-size: 1000;
         padding-bottom: 2rem $nav-color;
     }
+}
+
+dl, ol, ul {
+    margin: 0;
 }

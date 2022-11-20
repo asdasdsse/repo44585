@@ -1,8 +1,8 @@
 .contacto{
     &-wrp { 
-    height: auto;
-    padding: 12px;
-    margin: 10px 250px 10px 250px;
+        height: auto;
+        padding: 12px;
+        margin: 10px 250px 10px 250px;
     }
     
     &-div { 
@@ -18,6 +18,7 @@
         width: 12.2rem;
         }
         &-form {    
+            font-weight: 600;
             grid-column-start: 2;
             grid-column-end: 3;
             grid-row-start: 1;
@@ -35,10 +36,14 @@
         height: 9.3rem;
         display: flex;
         flex-direction: column;
+        & a {
+            text-decoration: none;
+            color: black;
+        }
     }
     &Hr hr {
         display: none;
-        }
+    }
     &-form input {
         width: 50%;
         height: auto;
