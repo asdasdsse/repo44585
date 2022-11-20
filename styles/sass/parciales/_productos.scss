@@ -4,13 +4,26 @@
     width: 50%;
     height: 25%;
     }
+    &-img {
+        object-fit: cover;
+    }
 }
 .productos-wrp {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 27.07rem;
+    margin-right: 27.07rem;
     padding: 0.25rem;
     box-shadow:0px 0px 1px 0px #000000;
+    justify-content: center;
+    align-items: center;
     &-anchor {
         text-decoration: none;
         color: #00a093;
     }
+    &-img--cerrado {
+        width: 45.5rem;
+        height: 30.2rem;
+    }
+
 }

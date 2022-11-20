@@ -96,6 +96,14 @@ footer {
   height: 6.38rem;
   display: inline-block;
 }
+.footer-p {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  height: 115px;
+  align-items: center;
+  justify-content: center;
+}
 .footer-p p {
   margin: 0.375;
 }
@@ -159,13 +167,43 @@ footer {
 }
 .seccionDosImg {
   margin-bottom: 0.5rem;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 .seccionTres {
-  background: rgb(173, 255, 237);
-  width: 100%;
+  background: rgb(252, 252, 252);
+  width: 100vw;
   height: 48.75rem;
   box-shadow: 0px 0px 2px 0px #000000;
+  margin: 0px;
+}
+.seccionTres-wrp {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.seccionTres-div {
+  width: 50vw;
+  height: 24rem;
+  text-align: center;
+}
+.seccionTres-div2-img {
+  width: 50vw;
+  height: 24rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+.seccionTres-div3-img {
+  width: 50vw;
+  height: 24.75rem;
+  object-fit: cover;
+  overflow: hidden;
+}
+.seccionTres-div3-img img {
+  height: 24.75rem;
 }
 
 .main-nosotros {
@@ -286,23 +324,49 @@ footer {
   width: 50%;
   height: 25%;
 }
+.carousel-img {
+  object-fit: cover;
+}
 
 .productos-wrp {
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 27.07rem;
+  margin-right: 27.07rem;
   padding: 0.25rem;
   box-shadow: 0px 0px 1px 0px #000000;
+  justify-content: center;
+  align-items: center;
 }
 .productos-wrp-anchor {
   text-decoration: none;
   color: #00a093;
 }
+.productos-wrp-img--cerrado {
+  width: 45.5rem;
+  height: 30.2rem;
+}
 
 .proyecto-wrp {
+  display: flex;
   margin: 2rem;
+  height: 46rem;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0px 0px 2px 0px #000000;
 }
 .proyecto-wrp-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 600px;
+}
+.proyecto-wrp-map iframe {
+  box-shadow: 0px 0px 2px 0px #000000;
+  width: 800px;
+  height: 600px;
+  border: 0;
 }
 
 /**    MEDIA QUERIES 320  **/
@@ -329,8 +393,13 @@ footer {
     padding: 0.2rem;
     margin: 0;
   }
+  .seccionDosImg {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 260px;
+  }
   .main-nosotros {
-    height: auto;
+    height: 83rem;
   }
   .nosotrosSeccionUno {
     margin: 0px 0px 0px 0px;
@@ -384,7 +453,9 @@ footer {
   }
   .contacto-wrp {
     height: auto;
-    margin: 5px 0 5px 0;
+    margin: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
   .contacto-div {
     display: flex;
@@ -411,7 +482,27 @@ footer {
     width: 100%;
     height: 100%;
   }
+  .productos-wrp-img--cerrado {
+    height: 188px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  }
+  .productos-wrp {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
   /*      PAGINA    PRODUCTOS   FIN      */
+  .proyecto-wrp {
+    width: 304px;
+    margin: 0.2rem;
+  }
+  .proyecto-wrp-map iframe {
+    width: 304px;
+    height: 524px;
+  }
   /* FOOTER */
   footer {
     justify-content: center;
@@ -453,7 +544,10 @@ footer {
 }
 /**   FIN MEDIA QUERIES 320  **/
 /**    MEDIA QUERIES 768  **/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768) {
+  .seccionDosImg {
+    height: 450px;
+  }
   .nosotrosSeccionUno {
     height: 58rem;
   }
@@ -466,6 +560,17 @@ footer {
   .carousel-img {
     width: 80%;
     height: 80%;
+  }
+  .productos-wrp {
+    width: 762px;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+  }
+  .proyecto-wrp-map iframe {
+    width: 702px;
+  }
+  .proyecto-wrp {
+    margin: 0;
   }
 }
 /**    FIN MEDIA QUERIES 768  **/

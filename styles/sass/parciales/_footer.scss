@@ -22,6 +22,14 @@ footer{
         height: 6.38rem;
         display: inline-block;
     } 
+    &-p {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem;
+        height: 115px;
+        align-items: center;
+        justify-content: center;
+    }
 
     &-p p {
         margin: 0.375;

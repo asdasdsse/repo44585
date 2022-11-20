@@ -26,8 +26,16 @@
         margin: 0;
     }
 
+    .seccionDosImg {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        height: 260px;
+    }
+
+
+
     .main-nosotros {
-        height: auto;
+        height: 83rem;
     }
 
     .nosotros { 
@@ -106,7 +114,9 @@
     .contacto {
         &-wrp {
             height: auto;
-            margin: 5px 0 5px 0;
+            margin: 0;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
         }
         
         &-div {
@@ -142,9 +152,32 @@
         width: 100%;
         height: 100%;
     }
+    .productos-wrp-img--cerrado {
+        height: 188px;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
 
+    .productos-wrp {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
     
     /*      PAGINA    PRODUCTOS   FIN      */
+    .proyecto-wrp {
+        width: 304px;
+        margin: 0.20rem;
+        
+        &-map iframe {
+            width: 304px;
+            height: 524px;
+        }
+    }
+
+
 
     /* FOOTER */
 

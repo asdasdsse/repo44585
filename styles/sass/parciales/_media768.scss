@@ -1,5 +1,8 @@
 /**    MEDIA QUERIES 768  **/
-@media screen and (max-width:768px){
+@media screen and (min-width:320px) and (max-width:768){
+    .seccionDosImg {
+        height: 450px;
+    }
     .nosotrosSeccionUno {
         height: 58rem;
     }
@@ -12,6 +15,17 @@
     .carousel-img {
         width: 80%;
         height: 80%;
+    }
+    .productos-wrp {
+        width: 762px;
+        margin-left: 0.20rem;
+        margin-right: 0.20rem;
+    }
+    .proyecto-wrp-map iframe {
+        width: 702px;
+    }
+    .proyecto-wrp {
+        margin: 0;
     }
 }
 
